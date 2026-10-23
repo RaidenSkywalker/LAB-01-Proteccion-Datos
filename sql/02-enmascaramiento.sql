@@ -1,5 +1,8 @@
 -- ==========================================
 -- ACTIVIDAD 2: ENMASCARAMIENTO (MASKING)
+-- Estudiante: Zamora Serrano Irvin Donovan
+-- Fecha: 2026-10-23
+-- Requiere: 01-clasificacion.sql ejecutado (public.clientes)
 -- ==========================================
 
 -- 1. Crear el rol de soporte sin inicio de sesión
