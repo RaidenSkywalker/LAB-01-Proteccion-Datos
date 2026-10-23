@@ -18,11 +18,11 @@ CREATE TABLE IF NOT EXISTS clientes (
 -- 2. Insertar datos de prueba
 INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal)
 VALUES
-('Ana López', 'ana.lopez@example.test', '6671234567', 'LOAA850315ABC', 41, 'Culiacán', '80000'),
-('Carlos Pérez', 'carlos.perez@example.test', '6672345678', 'PECA900720DEF', 35, 'Culiacán', '80100'),
-('María García', 'maria.garcia@example.test', '6673456789', 'GAMA780912GHI', 47, 'Mazatlán', '82000'),
+('Ana Lopez', 'ana.lopez@example.test', '6671234567', 'LOAA850315ABC', 41, 'Culiacan', '80000'),
+('Carlos Perez', 'carlos.perez@example.test', '6672345678', 'PECA900720DEF', 35, 'Culiacan', '80100'),
+('María Garcia', 'maria.garcia@example.test', '6673456789', 'GAMA780912GHI', 47, 'Mazatlan', '82000'),
 ('Luis Torres', 'luis.torres@example.test', '6674567890', 'TOLU920201JKL', 34, 'Los Mochis', '81200'),
-('Laura Sánchez', 'laura.sanchez@example.test', '6675678901', 'SALA880525MNO', 38, 'Culiacán', '80200');
+('Laura Sanchez', 'laura.sanchez@example.test', '6675678901', 'SALA880525MNO', 38, 'Culiacan', '80200');
 
 -- 3. Consultas de verificación
 SELECT * FROM clientes;
