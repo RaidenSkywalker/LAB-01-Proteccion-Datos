@@ -23,7 +23,7 @@ INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal
 VALUES
 ('Ana Lopez', 'ana.lopez@example.test', '6671234567', 'LOAA850315ABC', 41, 'Culiacan', '80000'),
 ('Carlos Perez', 'carlos.perez@example.test', '6672345678', 'PECA900720DEF', 35, 'Culiacan', '80100'),
-('María Garcia', 'maria.garcia@example.test', '6673456789', 'GAMA780912GHI', 47, 'Mazatlan', '82000'),
+('Maria Garcia', 'maria.garcia@example.test', '6673456789', 'GAMA780912GHI', 47, 'Mazatlan', '82000'),
 ('Luis Torres', 'luis.torres@example.test', '6674567890', 'TOLU920201JKL', 34, 'Los Mochis', '81200'),
 ('Laura Sanchez', 'laura.sanchez@example.test', '6675678901', 'SALA880525MNO', 38, 'Culiacan', '80200');
 
