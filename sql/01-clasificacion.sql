@@ -2,7 +2,10 @@
 -- ACTIVIDAD 1: PREPARACIÓN Y CLASIFICACIÓN
 -- ==========================================
 
--- 1. Crear la tabla de clientes en el esquema public
+-- 1. Eliminar la tabla previa y sus dependencias si existen
+DROP TABLE IF EXISTS clientes CASCADE;
+
+-- 2. Crear la tabla de clientes en el esquema public
 CREATE TABLE IF NOT EXISTS clientes (
     id BIGSERIAL PRIMARY KEY,
     nombre VARCHAR(120) NOT NULL,
@@ -15,7 +18,7 @@ CREATE TABLE IF NOT EXISTS clientes (
     fecha_alta DATE DEFAULT CURRENT_DATE
 );
 
--- 2. Insertar datos de prueba
+-- 3. Insertar datos de prueba
 INSERT INTO clientes (nombre, correo, telefono, rfc, edad, ciudad, codigo_postal)
 VALUES
 ('Ana Lopez', 'ana.lopez@example.test', '6671234567', 'LOAA850315ABC', 41, 'Culiacan', '80000'),
