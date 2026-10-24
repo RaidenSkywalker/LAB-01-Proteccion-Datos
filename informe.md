@@ -32,7 +32,7 @@
    No. Los datos personales ordinarios (como nombre o correo) requieren protección bajo los principios de minimización y privacidad, pero no son jurídicamente datos sensibles (los cuales abarcan salud, biometría, ideología o religión). Sin embargo, su exposición sigue representando un riesgo de seguridad de la información.
 
 ### Evidencia de Ejecución
-![Verificación de la tabla de clientes](../evidencias/img/Actividad1/verificacion.png)
+![Verificación de la tabla de clientes](evidencias/img/Actividad1/verificacion.png)
 
 ---
 
