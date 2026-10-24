@@ -1,7 +1,7 @@
 # Informe LAB-01: Protección y Privacidad de Datos
-**Asignatura:** Gestión de Seguridad y Desempeño de Bases de Datos 
-**Alumno:** Zamora Serrano Irvin Donovan
-**Grupo:** 4-3  
+**Asignatura:** Gestión de Seguridad y Desempeño de Bases de Datos <br>
+**Alumno:** Zamora Serrano Irvin Donovan <br>
+**Grupo:** 4-3 <br>
 **Motor:** PostgreSQL 16  
 
 ---
