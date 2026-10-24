@@ -1,9 +1,11 @@
 # LAB-01 — Protección y privacidad de datos
 
-Práctica de la materia **Gestión de Seguridad y Desempeño de Bases de Datos** (Unidad II, tema 2.3).
-**Estudiante:** Zamora Serrano Irvin Donovan
+Práctica de la materia **Gestión de Seguridad y Desempeño de Bases de Datos** (Unidad II, tema 2.3).<br>
+**Estudiante:** Zamora Serrano Irvin Donovan<br>
+**Grupo:** 4-3 <br>
 **Motor:** PostgreSQL 16 en Docker (contenedor `postgres-lab`)
 **Entrega:** repositorio de GitHub (autorizado por el profesor)
+
 
 ## Contenido del repositorio
 
