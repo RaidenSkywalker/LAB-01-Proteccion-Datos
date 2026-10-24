@@ -42,11 +42,11 @@
 Se implementó una vista restringida (`v_clientes_soporte`) para ocultar parcialmente los atributos sensibles (`correo`, `telefono`, `rfc`) utilizando funciones de cadena de PostgreSQL (`CONCAT`, `LEFT`, `RIGHT`, `SUBSTRING`). Se creó el rol `soporte` con atributo `NOLOGIN` y se restringió el acceso directo a la tabla `public.clientes`.
 
 ### Evidencias del Proceso
-![Creación del rol soporte](img/Actividad2/create-role.png)
-![Creación de la vista de soporte](img/Actividad2/create-view.png)
-![Consulta exitosa desde la vista](img/Actividad2/acceso-vista.png)
-![Revocación de permisos sobre la tabla clientes](img/Actividad2/quitar-acceso.png)
-![Comparativa de acceso denegado vs vista](img/Actividad2/comparativa-tablas.png)
+![Creación del rol soporte](evidencias/img/Actividad2/create-role.png)
+![Creación de la vista de soporte](evidencias/img/Actividad2/create-view.png)
+![Consulta exitosa desde la vista](evidencias/img/Actividad2/acceso-vista.png)
+![Revocación de permisos sobre la tabla clientes](evidencias/img/Actividad2/quitar-acceso.png)
+![Comparativa de acceso denegado vs vista](evidencias/img/Actividad2/comparativa-tablas.png)
 
 ### Respuestas a Preguntas de Enmascaramiento
 1. **¿Qué información continúa existiendo en la tabla original?**  
@@ -69,8 +69,8 @@ Se creó una arquitectura segregada por esquemas:
 - Rol `analista`: Tiene acceso exclusivo de lectura sobre `analitica.clientes`, pero su acceso está expresamente denegado sobre `pii.mapa_cliente` y `public.clientes`.
 
 ### Evidencias de Permisos
-![Verificación de rol analista](img/Actividad5/role-analista.png)
-![Verificación de rol soporte](img/Actividad5/role-soporte.png)
+![Verificación de rol analista](evidencias/img/Actividad5/role-analista.png)
+![Verificación de rol soporte](evidencias/img/Actividad5/role-soporte.png)
 
 ### Respuestas a Preguntas
 1. **¿Qué ocurriría si analista pudiera consultar también `pii.mapa_cliente`?**  
@@ -121,9 +121,9 @@ Se utilizaron técnicas de generalización y agregación en PostgreSQL:
 - **Criterio utilizado:** Política de retención basada en antigüedad de registro superior a 5 años (`fecha_alta < CURRENT_DATE - INTERVAL '5 years'`).
 
 ### Evidencias de Evaluación de Retención
-![Consulta de intervalo actual](img/Actividad5/intervalo-actual.png)
-![Verificación con periodo a 0 días](img/Actividad5/periodo-0dias.png)
-![Identificación de registros excedidos](img/Actividad5/regsitros-excedidos.png)
+![Consulta de intervalo actual](evidencias/img/Actividad5/intervalo-actual.png)
+![Verificación con periodo a 0 días](evidencias/img/Actividad5/periodo-0dias.png)
+![Identificación de registros excedidos](evidencias/img/Actividad5/regsitros-excedidos.png)
 
 ### Gobernanza y Procedimiento de Eliminación
 - **Información a conservar:** Registros de clientes activos o con transacciones operativas/fiscales pendientes según el marco legal aplicable.
