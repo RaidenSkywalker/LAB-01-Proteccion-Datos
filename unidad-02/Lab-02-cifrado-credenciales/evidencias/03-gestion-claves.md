@@ -23,10 +23,10 @@ Get-ChildItem -Recurse -File | Where-Object { $_.FullName -notmatch '\\\.git\\' 
 ![Ejecucion del script](img/Actividad03/Get-Content01.png)
 
 **Búsqueda de secretos:**
-![Ejecucion del script](img/Actividad03/Get-Content01.png)
+![Ejecucion del script](img/Actividad09/03.png)
 
 **Confirmación de que el archivo ya no existe:**
-![Ejecucion del script](img/Actividad09/03.png)
+![Ejecucion del script](img/Actividad03/01.png)
 
 
 ## Análisis
