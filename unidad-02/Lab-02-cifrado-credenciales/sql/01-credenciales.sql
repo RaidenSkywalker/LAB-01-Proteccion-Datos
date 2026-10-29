@@ -4,6 +4,8 @@
 -- Fecha: 2026-10-27
 -- Requiere: PostgreSQL 16 (contenedor postgres-lab)
 -- NOTA: todos los valores son ficticios (solo laboratorio).
+-- '\echo' se utiliza para imprimir mensajes de texto directamente en la terminal durante la 
+--    ejecución de las consultas.
 -- =====================================================
 
 -- 6. Preparacion: extension pgcrypto
