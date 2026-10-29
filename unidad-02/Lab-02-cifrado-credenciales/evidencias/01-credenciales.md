@@ -17,21 +17,17 @@ Get-Content sql/01-credenciales.sql | docker exec -i postgres-lab psql -U postgr
 ![Ejecución de script Get-Content](img/Actividad01/Get-Content04.png)
 
 **7.1 Tabla insegura (`usuarios_insegura`):**
-```
-(img/Actividad01/02.png)
-```
+![Ejecución de script](img/Actividad01/02.png)
+
 **7.3 Dos hashes de la misma contraseña:**
-```
-(img/Actividad01/03.png)
-```
+![Ejecución de script](img/Actividad01/03.png)
+
 **7.4 Tabla segura (`usuarios_segura`):**
-```
-(img/Actividad01/04.png)
-```
+![Ejecución de script](img/Actividad01/04.png)
+
 **7.5 Verificación (`correcta e incorrecta`):**
-```
-(img/Actividad01/05.png)
-```
+![Ejecución de script](img/Actividad01/05.png)
+
 
 ## Análisis
 - **¿Qué ocurriría si alguien obtiene acceso de lectura a `usuarios_insegura`?** Vería `Password123` directamente y podría suplantar al usuario; si la persona reutiliza contraseñas, también en otros sistemas. Una filtración de la base se convierte en filtración de credenciales.
