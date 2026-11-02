@@ -1,0 +1,4 @@
+# Respaldos y copias de configuracion con datos o hashes: no se versionan
+respaldo-*.sql
+*.bak
+*.bak-*
